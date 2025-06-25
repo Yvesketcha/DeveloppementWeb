@@ -1,0 +1,60 @@
+.inscrir {
+    margin-top: 15px;
+    background-color: #a8a8a844;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .inscrir form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #95bbf4;
+  }
+  
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="username"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+  input[type="username"]:focus {
+    border-color: #4c3925;
+    outline: none;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4c3925;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e2d1b;
+  }

@@ -1,0 +1,70 @@
+.inscrir {
+  margin: 40px auto;
+  background-color: rgba(168, 168, 168, 0.27);
+  border-radius: 15px;
+  padding: 30px 40px;
+  max-width: 500px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inscrir h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #4c3925;
+}
+
+.inscrir form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inscrir label {
+  font-size: 15px;
+  color: #2f2f2f;
+  font-weight: 500;
+}
+
+.inscrir input[type="email"],
+.inscrir input[type="password"],
+.inscrir input[type="text"] {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.inscrir input:focus {
+  border-color: #4c3925;
+  outline: none;
+  box-shadow: 0 0 4px rgba(76, 57, 37, 0.3);
+}
+
+.inscrir .checkbox-container {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #444;
+}
+
+.inscrir input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.inscrir button[type="submit"] {
+  background-color: #4c3925;
+  color: white;
+  padding: 12px;
+  font-size: 17px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.inscrir button[type="submit"]:hover {
+  background-color: #3e2d1b;
+  transform: translateY(-2px);
+}
